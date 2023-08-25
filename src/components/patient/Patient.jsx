@@ -40,7 +40,7 @@ const Patient = () => {
         <div className='card1'><h1>Make an appointement</h1>
         <p>Choose the best time for your next appointement!</p>
         <button className='book'>Book now</button>
-        <button className='daktour'>Doctors</button>
+        <button className='daktour'  onClick={()=>navigate("/doctors")}>Doctors</button>
        
         </div>
         
